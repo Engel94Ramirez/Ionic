@@ -19,7 +19,7 @@ export class BookingsPage implements OnInit {
 
   onCancelBooking(offerId: string, slidingEl: IonItemSliding) {
     slidingEl.close();
-    // cancel booking with offerId
+    // cancel booking with id offerId
   }
 
 }
